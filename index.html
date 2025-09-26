@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayiel Raja Sundar B - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">MAYIEL RAJA SUNDAR B</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Mayiel Raja Sundar B</h1>
+                <p class="subtitle">Aspiring Software Development Engineer</p>
+                <p class="description">Passionate about building scalable distributed systems and innovative customer-focused solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View My Work</a>
+                    <a href="https://linkedin.com/in/mayiel-raja-sundar-balamurugan-64a4641a7" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/MayielRaja" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="mailto:mayielraja@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="section-container about-container-flex">
+                <img src="profile-photo.jpg" alt="Mayiel Raja Sundar B" class="profile-pic">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        I am a final-year Electronics and Communication Engineering student at Vel Tech Multi Tech, graduating in 2025. My core passion lies in software development, specifically in creating scalable, distributed systems. I have hands-on experience in full-stack development, from engineering Android applications and multi-API Discord bots to developing IoT automation systems and predictive machine learning models. As a proactive leader, I have organized over 20 technical workshops for the IEEE Student Branch and served as a liaison for over 200 students during the placement process. I am eager to apply my skills in a challenging Software Development Engineer role.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section-grey">
+            <div class="section-container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>SQL</li>
+                            <li>XML</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>JDA</li>
+                            <li>OkHttp</li>
+                            <li>NumPy & Pandas</li>
+                            <li>Seaborn & Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>Firebase Realtime DB</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Maven</li>
+                            <li>Android Studio</li>
+                            <li>Arduino IDE</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <div class="section-container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>NexusBot Multi-API Discord Bot</h3>
+                        <p>Engineered an event-driven Discord bot from scratch using Java and JDA to deliver real-time data from external RESTful APIs. Utilized OkHttp for network requests and org.json for parsing complex JSON structures.</p>
+                        <div class="tech-stack"><span>Java</span><span>JDA</span><span>OkHttp</span><span>REST APIs</span><span>Maven</span></div>
+                        <div class="project-links"><a href="https://github.com/MayielRaja/discord-community-bot" target="_blank">View on GitHub <i class="fab fa-github"></i></a></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>MoneyMate Android Expense Tracker</h3>
+                        <p>Developed an offline-first Android app with SQLite for seamless expense tracking, ensuring 100% offline data persistence. The intuitive UI improved tracking efficiency by 30% for over 50 test users.</p>
+                        <div class="tech-stack"><span>Java</span><span>Android Studio</span><span>SQLite</span><span>XML</span></div>
+                        <div class="project-links"><a href="https://github.com/MayielRaja/MoneyMate" target="_blank">View on GitHub <i class="fab fa-github"></i></a></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Automated Smart Sericulture System</h3>
+                        <p>Engineered an IoT automation system with an ESP32 and Firebase Realtime Database to optimize the silkworm rearing process, reducing manual labor by 40% and improving silk quality.</p>
+                        <div class="tech-stack"><span>C++</span><span>ESP32</span><span>IoT</span><span>Firebase</span><span>Sensors</span></div>
+                        <div class="project-links"><a href="https://github.com/MayielRaja/Sericulture-IoT" target="_blank">View on GitHub <i class="fab fa-github"></i></a></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Asteroid Classification Predictive Model</h3>
+                        <p>Built and trained a machine learning model using Python and statistical analysis to classify asteroids. This model achieved a 90% classification accuracy during an internship with CIRF.</p>
+                        <div class="tech-stack"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Machine Learning</span></div>
+                        <div class="project-links"><a href="#" target="_blank">Internship Project</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section-grey">
+            <div class="section-container">
+                <h2>Internships</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2024 - Jul 2024</div>
+                        <div class="timeline-content">
+                            <h3>Internship Trainee</h3>
+                            <p class="company">KaaShiv Infotech</p>
+                            <p>Engineered a Smart Parking System prototype using C and Arduino IDE, integrating PIR sensors and stepper motors to automate vehicle detection and parking.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2023 - Jul 2023</div>
+                        <div class="timeline-content">
+                            <h3>Data Analyst</h3>
+                            <p class="company">Computational Intelligence Research Foundation</p>
+                            <p>Applied statistical analysis and machine learning techniques using Python, Pandas, and Seaborn to build a model that predicts asteroid classifications with 90% accuracy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="leadership" class="content-section">
+            <div class="section-container">
+                <h2>Leadership & Activities</h2>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <i class="fas fa-users"></i>
+                        <h4>IEEE Student Coordinator</h4>
+                        <p>Organized and managed over 20 technical workshops, attracting 200+ participants per event, and led a team of six for the annual technical symposium.</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>Placement Coordinator</h4>
+                        <p>Acted as the primary liaison for over 200 students, faculty, and recruiters, ensuring effective communication during the placement process.</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Competitive Coding</h4>
+                        <p>Actively engaged in competitive coding, resolving over 100 problems on Codechef and participating in the Amazon Coding Competition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="content-section-grey">
+            <div class="section-container">
+                <h2>Get In Touch</h2>
+                <p>I'm actively seeking Software Development Engineer roles. Let's connect!</p>
+                <a href="mailto:mayielraja@gmail.com" class="cta-button">Say Hello</a>
+                <div class="footer-socials">
+                     <a href="https://linkedin.com/in/mayiel-raja-sundar-balamurugan-64a4641a7" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://github.com/MayielRaja" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                     <a href="mailto:mayielraja@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MAYIEL RAJA SUNDAR B. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
